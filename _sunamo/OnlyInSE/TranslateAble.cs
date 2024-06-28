@@ -1,3 +1,5 @@
+
+namespace SunamoClearScript;
 public class TranslateAble
 {
     

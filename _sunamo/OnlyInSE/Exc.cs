@@ -1,3 +1,5 @@
+
+namespace SunamoClearScript;
 using System.Diagnostics;
 using System.Text;
 
