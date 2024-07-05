@@ -1,5 +1,5 @@
 
-namespace SunamoClearScript;
+namespace SunamoClearScript._sunamo.SunamoValues;
 internal class AllStrings
 {
     internal const string dot = ".";

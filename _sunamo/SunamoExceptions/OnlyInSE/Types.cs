@@ -1,4 +1,4 @@
-namespace SunamoClearScript;
+namespace SunamoClearScript._sunamo.SunamoExceptions.OnlyInSE;
 
 using System.Collections;
 using System.Text;

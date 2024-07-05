@@ -1,4 +1,4 @@
-namespace SunamoClearScript;
+namespace SunamoClearScript._sunamo.SunamoXlfKeys;
 
 
 
