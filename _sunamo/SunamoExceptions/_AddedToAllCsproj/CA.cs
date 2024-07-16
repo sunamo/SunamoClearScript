@@ -1,4 +1,4 @@
-namespace SunamoClearScript._sunamo.SunamoExceptions._AddedToAllCsproj;
+//namespace SunamoClearScript._sunamo.SunamoExceptions._AddedToAllCsproj;
 
 internal class CA
 {
