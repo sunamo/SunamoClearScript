@@ -2,13 +2,11 @@ namespace SunamoClearScript;
 
 public class ClearScriptHelper
 {
-    V8ScriptEngine engine = new V8ScriptEngine();
-
-    public static ClearScriptHelper ci = new ClearScriptHelper();
+    public static ClearScriptHelper ci = new();
+    private readonly V8ScriptEngine engine = new();
 
     private ClearScriptHelper()
     {
-
     }
 
     public bool Execute(string c)
@@ -22,6 +20,7 @@ public class ClearScriptHelper
         {
             return false;
         }
+
         return true;
     }
 
