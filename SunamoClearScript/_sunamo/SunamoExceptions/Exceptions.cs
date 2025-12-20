@@ -1,3 +1,4 @@
+// variables names: ok
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 namespace SunamoClearScript._sunamo.SunamoExceptions;
@@ -7,8 +8,8 @@ internal sealed partial class Exceptions
     #region Other
 
 #region IsNullOrWhitespace
-    readonly static StringBuilder sbAdditionalInfoInner = new();
-    readonly static StringBuilder sbAdditionalInfo = new();
+    readonly static StringBuilder AdditionalInfoInner = new();
+    readonly static StringBuilder AdditionalInfo = new();
     #endregion
 #endregion
 }

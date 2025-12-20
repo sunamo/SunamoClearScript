@@ -1,22 +1,23 @@
+// variables names: ok
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
 namespace SunamoClearScript;
 
 public class ClearScriptHelper
 {
-    public static ClearScriptHelper ci = new();
+    public static ClearScriptHelper Instance = new();
     private readonly V8ScriptEngine engine = new();
 
     private ClearScriptHelper()
     {
     }
 
-    public bool Execute(string c)
+    public bool Execute(string code)
     {
         try
         {
-            engine.Compile(c);
-            //engine.Execute(c);
+            engine.Compile(code);
+            //engine.Execute(code);
         }
         catch (Exception ex)
         {
