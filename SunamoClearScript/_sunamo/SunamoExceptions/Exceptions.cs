@@ -1,7 +1,8 @@
+namespace SunamoClearScript._sunamo.SunamoExceptions;
+
 // variables names: ok
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-namespace SunamoClearScript._sunamo.SunamoExceptions;
 // © www.sunamo.cz. All Rights Reserved.
 internal sealed partial class Exceptions
 {
