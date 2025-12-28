@@ -1,3 +1,4 @@
+// variables names: ok
 namespace SunamoClearScript;
 
 public class ClearScriptHelper
@@ -14,7 +15,6 @@ public class ClearScriptHelper
         try
         {
             engine.Compile(code);
-            //engine.Execute(code);
         }
         catch (Exception ex)
         {
