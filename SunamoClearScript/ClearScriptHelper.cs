@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoClearScript;
 
 public class ClearScriptHelper
