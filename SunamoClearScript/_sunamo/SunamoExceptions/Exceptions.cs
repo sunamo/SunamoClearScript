@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoClearScript._sunamo.SunamoExceptions;
 
 // variables names: ok
