@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoClearScript.Tests\\SunamoClearScript.Tests.csproj" />
+  <Project Path="RunnerClearScript\\RunnerClearScript.csproj" />
+  <Project Path="SunamoClearScript\SunamoClearScript.csproj" />
+</Solution>
