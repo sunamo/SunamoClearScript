@@ -1,6 +1,6 @@
 # SunamoClearScript
 
-Wrapper around Microsoft.ClearScript offering easier work
+Wrapper around Microsoft.ClearScript offering easier JavaScript code compilation and execution via the V8 engine.
 
 ## Overview
 
@@ -10,11 +10,11 @@ SunamoClearScript is part of the Sunamo package ecosystem, providing modular, pl
 
 ### Key Classes
 
-- **ClearScriptHelper**
+- **ClearScriptHelper** - Singleton helper for compiling JavaScript code using ClearScript V8 engine.
 
 ### Key Methods
 
-- `Execute()`
+- `Execute(string code)` - Compiles JavaScript code and returns whether it was successful.
 
 ## Installation
 
@@ -27,15 +27,13 @@ dotnet add package SunamoClearScript
 - **Microsoft.ClearScript.Core** (v7.5.0)
 - **Microsoft.ClearScript.V8** (v7.5.0)
 - **Microsoft.ClearScript.V8.Native.win-x86** (v7.5.0)
-- **Microsoft.Extensions.Logging.Abstractions** (v9.0.3)
+- **Microsoft.Extensions.Logging.Abstractions** (v10.0.2)
 
 ## Package Information
 
 - **Package Name**: SunamoClearScript
-- **Version**: 25.3.29.1
-- **Target Framework**: net9.0
+- **Target Frameworks**: net10.0, net9.0, net8.0
 - **Category**: Platform-Independent NuGet Package
-- **Source Files**: 6
 
 ## Related Packages
 
@@ -43,4 +41,4 @@ This package is part of the Sunamo package ecosystem. For more information about
 
 ## License
 
-See the repository root for license information.
+MIT

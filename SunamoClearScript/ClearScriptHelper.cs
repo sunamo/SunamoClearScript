@@ -1,14 +1,12 @@
 namespace SunamoClearScript;
 
 /// <summary>
-/// EN: Helper class for executing JavaScript code using ClearScript V8 engine
-/// CZ: Pomocná třída pro spouštění JavaScript kódu pomocí ClearScript V8 engine
+/// Helper class for executing JavaScript code using ClearScript V8 engine.
 /// </summary>
 public class ClearScriptHelper
 {
     /// <summary>
-    /// EN: Singleton instance of ClearScriptHelper
-    /// CZ: Singleton instance ClearScriptHelper
+    /// Singleton instance of ClearScriptHelper.
     /// </summary>
     public static ClearScriptHelper Instance { get; } = new();
 
@@ -19,11 +17,10 @@ public class ClearScriptHelper
     }
 
     /// <summary>
-    /// EN: Executes (compiles) JavaScript code and returns whether it was successful
-    /// CZ: Provede (zkompiluje) JavaScript kód a vrátí zda byl úspěšný
+    /// Compiles JavaScript code and returns whether it was successful.
     /// </summary>
-    /// <param name="code">EN: JavaScript code to execute; CZ: JavaScript kód k provedení</param>
-    /// <returns>EN: True if code compiled successfully, false otherwise; CZ: True pokud se kód úspěšně zkompiloval, jinak false</returns>
+    /// <param name="code">JavaScript code to compile.</param>
+    /// <returns>True if code compiled successfully, false otherwise.</returns>
     public bool Execute(string code)
     {
         try
@@ -39,8 +36,7 @@ public class ClearScriptHelper
     }
 
     /// <summary>
-    /// EN: Finalizer that disposes the V8 engine
-    /// CZ: Finalizátor který uvolní V8 engine
+    /// Finalizer that disposes the V8 engine.
     /// </summary>
     ~ClearScriptHelper()
     {
