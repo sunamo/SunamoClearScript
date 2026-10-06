@@ -1,5 +1,10 @@
 # SunamoClearScript
 
+## Short description
+
+Obal nad knihovnou Microsoft.ClearScript, který usnadňuje kompilaci a spouštění kódu JavaScript pomocí enginu V8.
+
+
 Wrapper around Microsoft.ClearScript offering easier JavaScript code compilation and execution via the V8 engine.
 
 ## Overview
