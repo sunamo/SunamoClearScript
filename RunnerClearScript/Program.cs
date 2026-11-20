@@ -1,4 +1,3 @@
-// variables names: ok
 namespace RunnerClearScript;
 
 internal class Program
